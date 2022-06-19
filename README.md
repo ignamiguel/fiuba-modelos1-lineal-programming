@@ -15,11 +15,13 @@ TBC
 
 #### Installation error on macOS Monterey
 <img src="img/cplex-installation-error-on-mac.png" alt="CPLEX installation error on macOS" style="height: 288px; width:256px;"/>
+
 ```bash
 the JVM shared library
 libjvm.dylib
 does not cotain the JNI_CreateJavaVM symbol
 ```
+
 [Solved]
 https://stackoverflow.com/questions/25753966/eclipse-jvm-shared-library-does-not-contain-the-jni-createjavavm-symbol
 
