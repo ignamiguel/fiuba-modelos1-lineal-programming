@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="false" name="avanzado" category="opl">
+			<ref name="tp2.mod" type="model">
+			</ref>
+			<ref name="avanzado.dat" type="data">
+			</ref>
+		</config>
+		<config default="true" name="basico" category="opl">
+			<ref name="tp2.mod" type="model">
+			</ref>
+			<ref name="basico.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

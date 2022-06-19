@@ -1,0 +1,32 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: Tomas
+ * Creation Date: May 24, 2022 at 4:56:47 PM
+ *********************************************/
+SheetConnection sheet("../../Datos-Basico.xlsx");
+
+m from SheetRead(sheet, "'Constantes PL'!B2");
+M from SheetRead(sheet, "'Constantes PL'!C2");
+
+
+origenes from SheetRead(sheet, "Oferta!B4:B25");
+centros from SheetRead(sheet, "Capacidad!B4:B9");
+destinos from SheetRead(sheet, "Capacidad!B14:B16");
+
+Oferta from SheetRead(sheet, "Oferta!C4:C25");
+
+OfertaFicticia from SheetRead(sheet, "Oferta!C27");
+DemandaFicticia from SheetRead(sheet, "Capacidad!F18");
+
+capacidadCentro from SheetRead(sheet, "Capacidad!C4:E9");
+capacidadDestino from SheetRead(sheet, "Capacidad!C14:E16");
+
+
+
+coc1 from SheetRead(sheet, "Costo!C5:T26");
+//CostoOrigenCentro from SheetRead(sheet, "Costo!C5:X22");
+ccc1 from SheetRead(sheet, "Costo!C32:T37");
+ccd1 from SheetRead(sheet, "Costo!U32:AC37");
+
+//ccc from SheetRead(sheet, "Costo!C32:T37");
+
