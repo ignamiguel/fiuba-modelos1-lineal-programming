@@ -14,9 +14,8 @@ https://www.gnu.org/software/glpk/
 TBC
 
 #### Installation error on macOS Monterey
-<!-- ![alt text for screen readers](img/cplex-installation-error-on-mac.png) -->
 <img src="img/cplex-installation-error-on-mac.png" alt="CPLEX installation error on macOS" style="height: 288px; width:256px;"/>
-```
+```bash
 the JVM shared library
 libjvm.dylib
 does not cotain the JNI_CreateJavaVM symbol
